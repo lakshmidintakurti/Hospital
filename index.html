@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Angular JS Project</title>
+</head>
+<body>
+<body ng-app="Hospital">
+<p><a href="#!Admin login">Admin Login</a></p>
+<p><a href="#!Doctor login">Doctor Login</a></p>
+<p><a href="#!Doctor register">Doctor Register</a></p>
+<p><a href="#!Patient login">Patient Login</a></p>
+<p><a href="#!Patient register">Patient Register</a></p>
+<div ng-view></div>
+<script src="./js/angular.min.js"></script>
+<script src="./js/angular-route.js"></script>
+
+<script src="./Module/Hospital.js"></script>
+<script src="./config/view_config.js"></script>
+<script src="./controllers/Admin_login.js"></script>
+<script src="./controllers/Doctor_login.js"></script>
+<script src="./controllers/Doctor_register.js"></script>
+<script src="./controllers/Patient_login.js"></script>
+<script src="./controllers/Patient_register.js"></script>
+</body>
+</html>
